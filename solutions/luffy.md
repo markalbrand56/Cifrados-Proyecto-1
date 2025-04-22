@@ -33,6 +33,8 @@ luffy@2affc5ba053a:~/ONEPIECE/poneglyph_descomprimido$ ls -a
 .  ..  poneglyph.jpeg
 ```
 
+![Screenshot](https://github.com/markalbrand56/Cifrados-Proyecto-1/blob/main/media/luffy_1.png)
+
 Ahora se mueve esta imagen al volumen compartido `/luffy_ctf` para trabajar con ella en la máquina local.
 
 ```bash

@@ -46,7 +46,7 @@ poneglyph.jpeg
 Ahora se mueve esta imagen al volumen compartido `/zoro_ctf` para trabajar con ella en la máquina local.
 
 ```bash
-mv poneglyph.jpeg /zoro_ctf
+cp poneglyph.jpeg /zoro_ctf
 ```
 
 ![poneglyph.jpeg](https://github.com/markalbrand56/Cifrados-Proyecto-1/blob/main/challenges_volumes/zoro_ctf/poneglyph.jpeg)

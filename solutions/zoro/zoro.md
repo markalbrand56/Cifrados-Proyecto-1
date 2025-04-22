@@ -96,4 +96,4 @@ usando RC4. Usando el scipt desarrollado de Python para romper RC4, se logra obt
 FLAG_7bf472c0a9f8c3bda0057209c9ad1aed
 ```
 
-![Screenshot](https://github.com/markalbrand56/Cifrados-Proyecto-1/blob/main/media/luffy_2.png)
+![Screenshot](https://github.com/markalbrand56/Cifrados-Proyecto-1/blob/main/media/zoro_2.png)

@@ -38,7 +38,7 @@ luffy@2affc5ba053a:~/ONEPIECE/poneglyph_descomprimido$ ls -a
 Ahora se mueve esta imagen al volumen compartido `/luffy_ctf` para trabajar con ella en la máquina local.
 
 ```bash
-mv poneglyph.jpeg /luffy_ctf
+cp poneglyph.jpeg /luffy_ctf
 ```
 
 ![poneglyph.jpeg](https://github.com/markalbrand56/Cifrados-Proyecto-1/blob/main/challenges_volumes/luffy_ctf/poneglyph.jpeg)

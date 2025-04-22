@@ -61,3 +61,31 @@ When Jack and the Beasts Pirates invaded Zou to look for Raizo of Wano Country,
 
 > Si se usa la imagen completa, el resultado no contiene ningún texto legible. Por lo tanto se asume
 > que el texto cifrado es solo la parte que contiene el texto.
+
+Por último, usando el siguiente comando se pueden encontrar diversos archivos de texto
+
+```bash
+luffy@2affc5ba053a:~/ONEPIECE$ find . -type f \( -iname "*.txt" -o -iname "*.enc" -o -iname "*.flag" \)
+```
+
+```text
+./Dressrosa/Acacia/Casa_de_Rebecca/flag.txt
+./Dressrosa/Royal_Palace/Casa_de_Viola/flag.txt
+./East_Blue/Syrup_Village/Casa_de_Usopp/flag.txt
+./East_Blue/Romance_Dawn/Casa_de_Shanks/flag.txt
+./East_Blue/Shells_Town/Casa_de_Morgan/flag.txt
+./East_Blue/Loguetown/Casa_de_Dragon/flag.txt
+./Zou/Right_Belly_Fortress/Casa_de_Nekomamushi/flag.txt
+./Zou/Right_Fore_Leg/Casa_de_Inuarashi/flag.txt
+./Wano/Udon/Casa_de_Oden/flag.txt
+./Fishman_Island/Coral_Mansion/Casa_de_Otohime/flag.txt
+./Fishman_Island/Gyoverly_Hills/Casa_de_Otohime/flag.txt
+```
+
+De estos, el segundo archivo `./Dressrosa/Royal_Palace/Casa_de_Viola/flag.txt` contiene el único texto que no es legible.
+
+Aplicando el mismo método de XOR, se obtiene la siguiente flag:
+
+```text
+FLAG_348a56efa179e2911c421c9c6ad83869
+```

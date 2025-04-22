@@ -19,3 +19,12 @@ with open("solution.txt", "w+", encoding="utf-8") as f:
     f.write(decoded)
 
 print(f"\nLa flag es: '{decoded}'")
+
+# aplicarle xor con 21004 a '747d71776b01050851010454565105050855020d03005304060352095302535508030c0408'
+flag = "747d71776b01050851010454565105050855020d03005304060352095302535508030c0408"
+flag_bytes = bytes.fromhex(flag)
+flag_decrypted = xor_decrypt(flag_bytes, key.encode())
+
+decoded_flag = flag_decrypted.decode('utf-8', errors='ignore')
+
+print(f"\nLa flag es: '{decoded_flag}'")

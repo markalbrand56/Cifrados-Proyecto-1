@@ -92,8 +92,12 @@ Como lo dice el enunciado, ahora la flag esta codificada con un algoritmo de Cha
 Este algoritmo depende de una llave y un nonce. Es un cifrado difícil de romper con fuerza bruta, así que se probaron primero algunos
 diferentes valores, usando mi carnet como punto de partida.
 
-Al final, se encontró que efectivamente mi carnet era tanto el nonce como la llave, en configuración de 256 bits para la llave y de 64 bits para el nonce.
-Con esto, se encontró la última flag:
+Este algoritmo requiere que la llave sea de 32 bytes, el nounce es el que puede llegar a variar en cuanto a su longitud.
+
+> Los más comunes son de 8 bytes y 12 bytes.
+
+Usando el script desarrollado de Python para romper ChaCha20, se logra obtener la siguiente flag con la configuración de 32 bits / 8 bits
+usando mi carnet como base para tanto la llave como el nonce:
 
 ```text
 FLAG_914bacd0923f836359edcf71b726b935

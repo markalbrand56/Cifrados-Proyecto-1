@@ -25,9 +25,12 @@ flag_bytes = bytes.fromhex(flag)
 
 from Crypto.Cipher import ChaCha20
 
-key = ("21004".encode() * 32)[:32]  # 256 bits
+test = "21004"
+key_bytes = 32
+nonce_bytes = 8
 
-nonce = ("21004".encode() * 8)[:8]  # 64 bits
+key = (test.encode() * key_bytes)[:key_bytes]  # 256 bits
+nonce = (test.encode() * nonce_bytes)[:nonce_bytes]  # 64 bits
 
 # Proceso de descifrado
 cipher = ChaCha20.new(key=key, nonce=nonce)

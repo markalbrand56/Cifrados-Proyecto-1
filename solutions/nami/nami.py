@@ -22,3 +22,21 @@ print(f"\nLa flag es: '{decoded}'")
 
 flag = "406741b0ff88d323d03e2948042e9909a79467ba21c95fe34cbb0529a3d9b6537a9312f3b1"
 flag_bytes = bytes.fromhex(flag)
+
+from Crypto.Cipher import ChaCha20
+
+key = ("21004".encode() * 32)[:32]  # 256 bits
+
+nonce = ("21004".encode() * 8)[:8]  # 64 bits
+
+# Proceso de descifrado
+cipher = ChaCha20.new(key=key, nonce=nonce)
+plaintext = cipher.decrypt(flag_bytes)
+
+# Intentamos decodificar
+try:
+    decoded = plaintext.decode("utf-8")
+    print(f"[+] Flag descifrada: {decoded}")
+except UnicodeDecodeError:
+    print("[!] El texto no es UTF-8 legible.")
+    print(f"Raw output: {plaintext}")

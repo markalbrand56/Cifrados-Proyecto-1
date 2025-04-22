@@ -89,3 +89,5 @@ Aplicando el mismo método de XOR, se obtiene la siguiente flag:
 ```text
 FLAG_348a56efa179e2911c421c9c6ad83869
 ```
+
+![Screenshot](https://github.com/markalbrand56/Cifrados-Proyecto-1/blob/main/media/luffy_2.png)

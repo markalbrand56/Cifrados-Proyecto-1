@@ -100,7 +100,11 @@ Usando el script desarrollado de Python para romper ChaCha20, se logra obtener l
 usando mi carnet como base para tanto la llave como el nonce:
 
 ```text
-FLAG_914bacd0923f836359edcf71b726b935
+[+] Flag descifrada: FLAG_914bacd0923f836359edcf71b726b935
+[!] El texto no es UTF-8 legible con la configuración nonce 12
+Raw output: b'#?\xe0\x02\xe3\x98\x17\xa3\x93G\x0e\x13i\xd5\x83\xd2hR\xc6\xa5\xbd\x1c_\x97\xba\x1a\xc1\x98\xa8\x07\xcdU3E9(\xc7'
+[!] El texto no es UTF-8 legible con la configuración nonce 24
+Raw output: b" x\x88\x1e\\<\xc2\xf4\xeb\t\xb7\xd3F\x84x\xf8Q?\x12l\xa43$k\x95\xc59v\xc4(\xa1~'\xc7\x9cd\xa1"
 ```
 
 ![Screenshot](https://github.com/markalbrand56/Cifrados-Proyecto-1/blob/main/media/nami_2.png)

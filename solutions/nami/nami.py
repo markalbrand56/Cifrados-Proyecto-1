@@ -27,19 +27,21 @@ from Crypto.Cipher import ChaCha20
 
 test = "21004"
 key_bytes = 32
-nonce_bytes = 8
+nonce_bytes = [8, 12, 24]
 
-key = (test.encode() * key_bytes)[:key_bytes]  # 256 bits
-nonce = (test.encode() * nonce_bytes)[:nonce_bytes]  # 64 bits
+for nb in nonce_bytes:
 
-# Proceso de descifrado
-cipher = ChaCha20.new(key=key, nonce=nonce)
-plaintext = cipher.decrypt(flag_bytes)
+    key = (test.encode() * key_bytes)[:key_bytes]  # 256 bits
+    nonce = (test.encode() * nb)[:nb]  # 64 bits
 
-# Intentamos decodificar
-try:
-    decoded = plaintext.decode("utf-8")
-    print(f"[+] Flag descifrada: {decoded}")
-except UnicodeDecodeError:
-    print("[!] El texto no es UTF-8 legible.")
-    print(f"Raw output: {plaintext}")
+    # Proceso de descifrado
+    cipher = ChaCha20.new(key=key, nonce=nonce)
+    plaintext = cipher.decrypt(flag_bytes)
+
+    # Intentamos decodificar
+    try:
+        decoded = plaintext.decode("utf-8")
+        print(f"[+] Flag descifrada: {decoded}")
+    except UnicodeDecodeError:
+        print(f"[!] El texto no es UTF-8 legible con la configuración nonce {nb}")
+        print(f"Raw output: {plaintext}")

@@ -1,7 +1,7 @@
 def xor_decrypt(data, key):
     return bytes([b ^ key[i % len(key)] for i, b in enumerate(data)])
 
-with open('/challenges_volumes/luffy_ctf/poneglyph.jpeg', 'rb') as f:
+with open('C:\\Users\\marka\\Coding\\UVG\\Cifrados\\Cifrados-Proyecto-1\\challenges_volumes\\luffy_ctf\\poneglyph.jpeg', 'rb') as f:
     ciphertext = f.read()
     print(ciphertext)
 

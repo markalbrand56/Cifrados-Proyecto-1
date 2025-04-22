@@ -39,6 +39,8 @@ Ahora se mueve esta imagen al volumen compartido `/luffy_ctf` para trabajar con 
 mv poneglyph.jpeg /luffy_ctf
 ```
 
+![poneglyph.jpeg](https://github.com/markalbrand56/Cifrados-Proyecto-1/blob/main/challenges_volumes/luffy_ctf/poneglyph.jpeg)
+
 Con la imagen en mi máquina local, se puede abrir sin problemas la imagen. Se puede notar que en la esquina superior
 izquierda hay un texto que parece ser una llave, empezando con los caracteres 'eYU' y siguiendo con caracteres que parecen 
 no ser ASCII. Esto es un indicio de que este es lo que hay que descifrar usando XOR. 

@@ -34,6 +34,8 @@ password: onepiece
 
 #### Poneglyph
 
+![Poneglyph Luffy]((https://github.com/markalbrand56/Cifrados-Proyecto-1/blob/main/challenges_volumes/luffy_ctf/poneglyph.jpeg))
+
 Una vez con el acceso, se encuentra el archivo `poneglyph.zip` en la ruta `./ONEPIECE/East_Blue/Shells_Town/Casa_de_Helmeppo/`,
 después de extraerla se obtiene el archivo `poneglyph.jpeg`. Este luego se copia al volumen compartido `luffy_ctf` para ser
 analizado en la máquina local.
@@ -83,6 +85,8 @@ password: FLAG_348a56efa179e2911c421c9c6ad83869
 
 #### Poneglyph
 
+![Poneglyph Zoro]((https://github.com/markalbrand56/Cifrados-Proyecto-1/blob/main/challenges_volumes/zoro_ctf/poneglyph.jpeg))
+
 Nuevamente, se buscó el archivo `poneglyph.zip`, encontrándolo en la carpeta `./East_Blue/Shells_Town/Casa_de_Rika/`. 
 Siguiendo el mismo procedimiento que en el primer desafío, se extrajo el archivo y se obtuvo la imagen `poneglyph.jpeg`.
 Esta imagen se movió al volumen compartido `/zoro_ctf` para trabajar con ella en la máquina local.
@@ -131,6 +135,8 @@ password: FLAG_7bf472c0a9f8c3bda0057209c9ad1aed
 ```
 
 #### Poneglyph
+
+![Poneglyph Usopp]((https://github.com/markalbrand56/Cifrados-Proyecto-1/blob/main/challenges_volumes/usopp_ctf/poneglyph.jpeg))
 
 Nuevamente, se buscó el archivo `poneglyph.zip`, encontrándolo en la carpeta `./ONEPIECE/Zou/Right_Belly_Fortress/Casa_de_Inuarashi`.
 Siguiendo el mismo procedimiento que en el primer desafío, se extrajo el archivo y se obtuvo la imagen `poneglyph.jpeg`.
@@ -188,6 +194,8 @@ password: FLAG_fcbd8689ff72334dbd43f119306e1a9d
 ```
 
 #### Poneglyph
+
+![Poneglyph Nami]((https://github.com/markalbrand56/Cifrados-Proyecto-1/blob/main/challenges_volumes/nami_ctf/poneglyph.jpeg))
 
 Nuevamente, se buscó el archivo `poneglyph.zip`, encontrándolo en la carpeta `./ONEPIECE/Dressrosa/Royal_Palace/Casa_de_Riku_Dold_III`.
 Siguiendo el mismo procedimiento que en el primer desafío, se extrajo el archivo y se obtuvo la imagen `poneglyph.jpeg`.

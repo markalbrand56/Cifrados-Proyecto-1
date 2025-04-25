@@ -82,6 +82,8 @@ luffy@2affc5ba053a:~/ONEPIECE$ find . -type f \( -iname "*.txt" -o -iname "*.enc
 ./Fishman_Island/Gyoverly_Hills/Casa_de_Otohime/flag.txt
 ```
 
+![Screenshot](https://github.com/markalbrand56/Cifrados-Proyecto-1/blob/main/media/luffy_2.png)
+
 De estos, el segundo archivo `./Dressrosa/Royal_Palace/Casa_de_Viola/flag.txt` contiene el único texto que no es legible.
 
 Aplicando el mismo método de XOR, se obtiene la siguiente flag:
@@ -90,4 +92,4 @@ Aplicando el mismo método de XOR, se obtiene la siguiente flag:
 FLAG_348a56efa179e2911c421c9c6ad83869
 ```
 
-![Screenshot](https://github.com/markalbrand56/Cifrados-Proyecto-1/blob/main/media/luffy_2.png)
+![Screenshot](https://github.com/markalbrand56/Cifrados-Proyecto-1/blob/main/media/luffy_3.png)

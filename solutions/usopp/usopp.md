@@ -87,6 +87,8 @@ usopp@2a73d406848a:~/poneglyph_descomprimido$ find . -type f \( -iname "*.txt" -
 ./ONEPIECE/Fishman_Island/Gyoncorde_Plaza/Casa_de_Otohime/flag.txt
 ```
 
+![Screenshot](https://github.com/markalbrand56/Cifrados-Proyecto-1/blob/main/media/usopp_2.png)
+
 De estos, el archivo `./ONEPIECE/Zou/Right_Fore_Leg/Casa_de_Kawamatsu/flag.txt` contiene el único texto que no es legible.
 
 Como lo dice el enunciado, ahora la flag esta codificada con un algoritmo de Stream Cipher. Para romper el cifrado,
@@ -97,4 +99,4 @@ que la mayoría de las llaves no funcionan, resultando en una única seed que fu
 FLAG_fcbd8689ff72334dbd43f119306e1a9d
 ```
 
-![Screenshot](https://github.com/markalbrand56/Cifrados-Proyecto-1/blob/main/media/usopp_2.png)
+![Screenshot](https://github.com/markalbrand56/Cifrados-Proyecto-1/blob/main/media/usopp_3.png)

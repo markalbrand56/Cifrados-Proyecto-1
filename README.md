@@ -240,6 +240,31 @@ Seventeen days later, the Straw Hats, Trafalgar Law, and Raizo's samurai comrade
 After Robin deciphered the Road Poneglyph, Inuarashi explained its purpose of revealing the location of Laugh Tale when its information was combined with that of the other three Road Poneglyphs.
 ```
 
+### Flags
+
+```text
+FLAG_348a56efa179e2911c421c9c6ad83869
+
+FLAG_7bf472c0a9f8c3bda0057209c9ad1aed
+
+FLAG_fcbd8689ff72334dbd43f119306e1a9d
+
+FLAG_914bacd0923f836359edcf71b726b935
+```
+
+## Reflexión final
+
+Este proyecto fue bastante interesante, fue una forma diferente de interactuar con diferentes algoritmos de cifrado y
+ejercicios de análisis. 
+
+El uso de imágenes como medio para ocultar información fue un enfoque interesante, y demuestra la facilidad con la que se puede ocultar información en un archivo de imagen.
+
+El uso de diferentes algoritmos de cifrado y la necesidad de romperlos fue un desafío interesante, y me ayudó a comprender mejor
+los conceptos de cifrado y descifrado.
+
+Este tipo de ejercicios siempre me han gustado. He probado ejercicios en plataformas como `TryHackMe` con este tipo de desafíos
+y siempre me los he disfrutado. Me gusta la idea de tener que encontrar flags dentro de una máquina.
+
 ## Developer's
 
 <a href="https://github.com/markalbrand56">

@@ -195,7 +195,7 @@ password: FLAG_fcbd8689ff72334dbd43f119306e1a9d
 
 #### Poneglyph
 
-![Poneglyph Nami]((https://github.com/markalbrand56/Cifrados-Proyecto-1/blob/main/challenges_volumes/nami_ctf/poneglyph.jpeg))
+![poneglyph.jpeg](https://github.com/markalbrand56/Cifrados-Proyecto-1/blob/main/challenges_volumes/nami_ctf/poneglyph.jpeg)
 
 Nuevamente, se buscó el archivo `poneglyph.zip`, encontrándolo en la carpeta `./ONEPIECE/Dressrosa/Royal_Palace/Casa_de_Riku_Dold_III`.
 Siguiendo el mismo procedimiento que en el primer desafío, se extrajo el archivo y se obtuvo la imagen `poneglyph.jpeg`.

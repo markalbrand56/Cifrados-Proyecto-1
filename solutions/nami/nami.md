@@ -85,6 +85,8 @@ nami@d7e64ac7c05a:~$ find . -type f \( -iname "*.txt" -o -iname "*.enc" -o -inam
 ./ONEPIECE/Fishman_Island/Mermaid_Cove/Casa_de_Otohime/flag.txt
 ```
 
+![Screenshot](https://github.com/markalbrand56/Cifrados-Proyecto-1/blob/main/media/nami_2.png)
+
 De estos, el archivo `./ONEPIECE/Zou/Right_Fore_Leg/Casa_de_Kawamatsu/flag.txt` contiene el único texto que no es legible.
 
 Como lo dice el enunciado, ahora la flag esta codificada con un algoritmo de ChaCha20. 
@@ -107,4 +109,4 @@ Raw output: b'#?\xe0\x02\xe3\x98\x17\xa3\x93G\x0e\x13i\xd5\x83\xd2hR\xc6\xa5\xbd
 Raw output: b" x\x88\x1e\\<\xc2\xf4\xeb\t\xb7\xd3F\x84x\xf8Q?\x12l\xa43$k\x95\xc59v\xc4(\xa1~'\xc7\x9cd\xa1"
 ```
 
-![Screenshot](https://github.com/markalbrand56/Cifrados-Proyecto-1/blob/main/media/nami_2.png)
+![Screenshot](https://github.com/markalbrand56/Cifrados-Proyecto-1/blob/main/media/nami_3.png)

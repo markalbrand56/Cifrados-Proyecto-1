@@ -87,6 +87,8 @@ zoro@89bf91b1a510:~/ONEPIECE$ find . -type f \( -iname "*.txt" -o -iname "*.enc"
 ./Fishman_Island/Gyoverly_Hills/Casa_de_Shirahoshi/flag.txt
 ```
 
+![Screenshot](https://github.com/markalbrand56/Cifrados-Proyecto-1/blob/main/media/zoro_2.png)
+
 De estos, el sexto archivo `./East_Blue/Baratie/Casa_de_Patty/flag.txt` contiene el único texto que no es legible.
 
 Aplicando el mismo método de XOR, la llave no se logra descifrar. Como el nombre del reto lo dice, esta esta codificada
@@ -96,4 +98,4 @@ usando RC4. Usando el scipt desarrollado de Python para romper RC4, se logra obt
 FLAG_7bf472c0a9f8c3bda0057209c9ad1aed
 ```
 
-![Screenshot](https://github.com/markalbrand56/Cifrados-Proyecto-1/blob/main/media/zoro_2.png)
+![Screenshot](https://github.com/markalbrand56/Cifrados-Proyecto-1/blob/main/media/zoro_3.png)

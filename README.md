@@ -2,6 +2,8 @@
 
 ## Proyecto 1: Cifrados de Flujo – Desafíos en Seguridad
 
+> El reporte se encuentra acá: https://github.com/markalbrand56/Cifrados-Proyecto-1/blob/main/proyecto_1_reporte.pdf
+
 <a id="readme-top"></a>
 
 <!--
